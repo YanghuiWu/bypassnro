@@ -56,7 +56,7 @@
 							<PlainText>true</PlainText>
 						</Password>
 					</LocalAccount>
-					<LocalAccount wcm:action="add">
+					<!-- <LocalAccount wcm:action="add">
 						<Name>User</Name>
 						<DisplayName></DisplayName>
 						<Group>Users</Group>
@@ -64,7 +64,7 @@
 							<Value></Value>
 							<PlainText>true</PlainText>
 						</Password>
-					</LocalAccount>
+					</LocalAccount> -->
 				</LocalAccounts>
 			</UserAccounts>
 			<AutoLogon>
@@ -131,7 +131,7 @@ $selectors = @(
 	'Microsoft.OutlookForWindows';
 	'Microsoft.MSPaint';
 	'Microsoft.People';
-	'Microsoft.Windows.Photos';
+	<!-- 'Microsoft.Windows.Photos'; -->
 	'Microsoft.PowerAutomateDesktop';
 	'MicrosoftCorporationII.QuickAssist';
 	'Microsoft.SkypeApp';
@@ -200,7 +200,7 @@ $selectors = @(
 	'Browser.InternetExplorer';
 	'MathRecognizer';
 	'OneCoreUAP.OneSync';
-	'OpenSSH.Client';
+	<!-- 'OpenSSH.Client'; -->
 	'Microsoft.Windows.PowerShell.ISE';
 	'App.Support.QuickAssist';
 	'Language.Speech';
